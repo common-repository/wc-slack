@@ -1,0 +1,126 @@
+{
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.0.6",
+            "version_normalized": "1.0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
+                "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
+                "shasum": ""
+            },
+            "replace": {
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "time": "2013-08-20T04:37:09+00:00",
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "TYPO3 CMS",
+                "TYPO3 Flow",
+                "TYPO3 Neos",
+                "agl",
+                "cakephp",
+                "codeigniter",
+                "drupal",
+                "fuelphp",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "li3",
+                "lithium",
+                "mako",
+                "modulework",
+                "phpbb",
+                "ppi",
+                "silverstripe",
+                "symfony",
+                "wordpress",
+                "zend"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/master"
+            },
+            "install-path": "./installers"
+        },
+        {
+            "name": "kerkness/kore-wp",
+            "version": "v1.0.13",
+            "version_normalized": "1.0.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kerkness/kore-wp.git",
+                "reference": "fd6881fbc5aedb67ef8bcc79a83d9a062859e5c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kerkness/kore-wp/zipball/fd6881fbc5aedb67ef8bcc79a83d9a062859e5c6",
+                "reference": "fd6881fbc5aedb67ef8bcc79a83d9a062859e5c6",
+                "shasum": ""
+            },
+            "time": "2021-08-19T13:06:23+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Kerkness\\KoreWP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "kerkness",
+                    "email": "ryan@kerkness.ca"
+                }
+            ],
+            "description": "Common classes for building wordpress plugins",
+            "support": {
+                "issues": "https://github.com/kerkness/kore-wp/issues",
+                "source": "https://github.com/kerkness/kore-wp/tree/v1.0.13"
+            },
+            "install-path": "../kerkness/kore-wp"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
